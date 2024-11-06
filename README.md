@@ -35,7 +35,7 @@ La aplicación permite realizar las siguientes operaciones:
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/JuanCarlos92/ProyectoU9Final_1DAM.git
-  ```
+   
 2. Abre el proyecto en NetBeans
 
 3. Configura la base de datos MySQL con la siguiente estructura:
