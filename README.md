@@ -43,10 +43,10 @@ La aplicación permite realizar las siguientes operaciones:
    CREATE DATABASE BaseDatos;
    USE BaseDatos;
    CREATE TABLE Departamentos (
-    codigo INT PRIMARY KEY,
-    nombre VARCHAR(255),
-    id_localizacion INT,
-    id_manager INT
+     codigo INT PRIMARY KEY,
+     nombre VARCHAR(255),
+     id_localizacion INT,
+     id_manager INT
    );
    ```
 4. Asegúrate de que el conector JDBC para MySQL esté instalado y configurado en tu proyecto.
