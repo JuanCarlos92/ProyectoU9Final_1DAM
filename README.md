@@ -39,16 +39,16 @@ La aplicación permite realizar las siguientes operaciones:
 2. Abre el proyecto en NetBeans
 
 3. Configura la base de datos MySQL con la siguiente estructura:
-  ```bash
-  CREATE DATABASE BaseDatos;
-  USE BaseDatos;
-  CREATE TABLE Departamentos (
+   ```bash
+   CREATE DATABASE BaseDatos;
+   USE BaseDatos;
+   CREATE TABLE Departamentos (
     codigo INT PRIMARY KEY,
     nombre VARCHAR(255),
     id_localizacion INT,
     id_manager INT
-  );
-  ```
+   );
+   ```
 4. Asegúrate de que el conector JDBC para MySQL esté instalado y configurado en tu proyecto.
 
 5. Ejecuta la clase VentanaUI para iniciar la interfaz gráfica.
